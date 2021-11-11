@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosInstance = axios.create({
-    baseURL: "http://127.0.0.1:8000/"
+    baseURL: "https://murmuring-bayou-16041.herokuapp.com/"
 });
 
 export default AxiosInstance;
